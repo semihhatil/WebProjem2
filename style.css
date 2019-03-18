@@ -5,8 +5,8 @@
 	outline-width:1px;
 	margin: auto;
 	padding-top:50px;
-	border-style: solid;
-	border-color: green;
+	
+	
 }
 .kategori{
 	display: flex;
@@ -15,11 +15,8 @@
     outline-style:solid;
 	outline-width:1px;
 	margin:auto;
-	border-style: solid;
-	border-color: blue;
 	
-    
-
+	
 }.kategoriAlan{
 	height:20px;
 	width:100px;
@@ -28,4 +25,23 @@
 	border-style: solid;
 	border-color: red;
 
+}
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  height:100px;
+  width:800px;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
 }
